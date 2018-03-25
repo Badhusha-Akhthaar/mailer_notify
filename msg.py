@@ -19,7 +19,7 @@ def main():
   rate=soup.find('span',{'id':'priceblock_saleprice'}).text
   fl=int(float(rate))
   if fl < 300:
-    sg = sendgrid.SendGridAPIClient(apikey='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')
+    sg = sendgrid.SendGridAPIClient(apikey='your-sendgrid-mail-api')
     from_email = Email("test@example.com")
     to_email = Email("akhthaaralibadhusha@gmail.com")
     subject = "Time to buy"

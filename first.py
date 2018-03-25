@@ -6,12 +6,12 @@ import sys
 from bs4 import BeautifulSoup
 import pyrebase
 config = {
-    "apiKey": "AIzaSyA_DZ_26VrOzTVTnJ2WfW0lwoaWhM9Xzpc",
-    "authDomain": "lab-mark.firebaseapp.com",
-    "databaseURL": "https://lab-mark.firebaseio.com",
-    "projectId": "lab-mark",
-    "storageBucket": "lab-mark.appspot.com",
-    "messagingSenderId": "998321061112"
+    "apiKey": "xxxxxxxxxxxxxxxxxxxxx",
+    "authDomain": "xxxxx.firebaseapp.com",
+    "databaseURL": "https://xxxx.firebaseio.com",
+    "projectId": "xxxxx",
+    "storageBucket": "xxxxx.appspot.com",
+    "messagingSenderId": "998321xxxxx"
   }
 firebase=pyrebase.initialize_app(config)
 db=firebase.database()
